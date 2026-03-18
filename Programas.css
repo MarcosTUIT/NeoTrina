@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1554054233-2baf02406cf9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1 {
+    width: 200px;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(103, 152, 207, 0.205);
+    border-radius: 1rem 1rem;
+    box-shadow: 0 8px 4px rgb(0, 0, 0);
+    margin: 50px auto;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 2rem;
+    border: 0.1px solid;
+    border-color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+}
+
+.nav-links a {
+    text-align: center;
+    padding: 0.50rem;
+    background-color: rgba(103, 152, 207, 0.205);
+    border-radius: 1rem 1rem;
+    box-shadow: 0 8px 4px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
+    border: 0.1px solid;
+    border-color: black;
+}
+
+.button a {
+    background-color: rgba(103, 152, 207, 0.205);
+    border-radius:  10px;
+    padding: 15px 15px;
+    position: absolute;
+    bottom: 602px;
+    left: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid;
+    border-color: black;
+}
+
+
+
